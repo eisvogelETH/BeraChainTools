@@ -200,18 +200,18 @@ async def run(file_path):
 
 if __name__ == '__main__':
     """
-    如果你不能完全的读懂代码，不建议直接运行本程序避免造成损失
-    运行时会读取当前文件夹下的claim_success.txt文本，跳过已经成功的地址
-    单进程性能会有瓶颈,大概一分钟能领1000左右,自行套多进程或复制多开
+    If you cannot fully understand the code, it is not recommended to run this program directly to avoid losses.
+    When running, the claim_success.txt text in the current folder will be read, skipping addresses that have been successful.
+    There will be a bottleneck in the performance of a single process. It can get about 1,000 per minute. You can set up multiple processes by yourself or copy and open multiple processes.
     """
-    # 验证平台key
+    # Verify platform key
     client_key = 'xxxxxxxxxxx'
-    # 目前支持使用yescaptcha 2captcha
+    # Currently supports yescaptcha 2captcha
     solver_provider = 'yescaptcha'
-    # 代理获取链接 设置一次提取一个 返回格式为text
+    # The agent obtains the link and sets it to extract one at a time. The return format is text.
     get_ip_url = 'http://127.0.0.1:8883/get_ip'
-    # 并发数量
+    # Number of concurrencies
     max_concurrent = 128
-    # 读取文件的路径 地址一行一个
+    #Read the path of the file, one address per line
     _file_path = './address.txt'
     asyncio.run(run(_file_path))
