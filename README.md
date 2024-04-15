@@ -1,12 +1,12 @@
 # BeraChainTools
 
-BeraChainTools 一个为 BeraChain 生态系统设计的工具集，旨在帮助用户轻松地进行各种交互和操作。
+BeraChainTools A tool set designed for the BeraChain ecosystem to help users easily perform various interactions and operations.
 
-### 安装依赖
+### Install dependencies
 
-在开始使用 BeraChainTools 之前，请确保安装了所有必要的依赖。
+Before starting to use BeraChainTools, please make sure you have all necessary dependencies installed.
 
-执行以下命令以安装依赖：
+Execute the following command to install dependencies:
 
 ```
 pip install -r requirements.txt
@@ -14,11 +14,11 @@ pip install -r requirements.txt
 
 ### Examples
 
-- bera目前验证更改为 CloudflareTurnstile，目前支持 yecaptcha 和 2captcha 解码
-- 如果你还没有 YesCaptcha 账号，请先在这里注册：[yescaptcha注册链接](https://yescaptcha.com/i/0vVEgw)。
-- 如果你还没有 2captcha 账号，请先在这里注册：[2captcha注册链接](https://cn.2captcha.com/?from=9389597)。
-- 如果你还没有 ez-captcha
-  账号，请先在这里注册：[ez-captcha注册链接](https://dashboard.ez-captcha.com/#/register?inviteCode=djnhuqvHuQJ)。
+- bera's current verification is changed to CloudflareTurnstile, which currently supports yecaptcha and 2captcha decoding
+- If you don’t have a YesCaptcha account yet, please register here: [yescaptcha registration link](https://yescaptcha.com/i/0vVEgw).
+- If you don’t have a 2captcha account yet, please register here first: [2captcha registration link](https://cn.2captcha.com/?from=9389597).
+- ez-captcha if you don't have it yet
+   For an account, please register here first: [ez-captcha registration link](https://dashboard.ez-captcha.com/#/register?inviteCode=djnhuqvHuQJ).
 
 Example 1 - 领水:
 
